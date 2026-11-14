@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "case_id": "H001",
+      "origin": "fresh",
+      "prompt": "Hi, I am Priya. Ticket LD-4450: can I pause my Lumen Desk Pro plan for two months instead of cancelling? This started when my plan renewed, shortly after I returned from leave.",
+      "response": "Hello Priya, yes \u2014 Lumen Desk Pro plans can pause for up to three months from the billing page, and your data stays intact. The pause under ticket LD-4450 starts at the next cycle. I have also noted that you need exports for a monthly audit and test new features before rolling them out."
+    },
+    {
+      "case_id": "H002",
+      "origin": "fresh",
+      "prompt": "I am Tomas, ticket LD-4457. The Lumen Desk Teams app logs me out every morning. Is that a known problem? This started during a work trip, shortly after I changed my contact email.",
+      "response": "Hi Tomas, that logout loop was a session bug in last week's Lumen Desk Teams release and a fix shipped yesterday. Update the app and ticket LD-4457 should stay resolved. I have also noted that you keep a paper trail for every change and escalate anything urgent by phone."
+    },
+    {
+      "case_id": "H003",
+      "origin": "fresh",
+      "prompt": "Hello, Elena here, ticket LD-4464. I need the Lumen Desk Teams invoice sent to our finance address instead of mine. This started just after the holidays, shortly after I added two teammates.",
+      "response": "Certainly, Elena. I have added the finance address to your Lumen Desk Teams billing profile, so future invoices go there directly. Ticket LD-4464 confirms the change. I have also noted that you prefer updates by email rather than in the app and archive anything older than a year."
+    },
+    {
+      "case_id": "H004",
+      "origin": "fresh",
+      "prompt": "I am Marcus. Ticket LD-4471: does Lumen Desk Teams work offline on a plane? This started late last week, shortly after I merged two projects.",
+      "response": "Hi Marcus, Lumen Desk Teams keeps a local copy of your recent boards for offline viewing, and edits sync when you reconnect. Full search needs a connection, as ticket LD-4471 explains. I have also noted that you recently switched from a competitor and use keyboard shortcuts heavily."
+    },
+    {
+      "case_id": "H005",
+      "origin": "fresh",
+      "prompt": "Hi, Ingrid, ticket LD-4478. Two of my Lumen Desk Lite seats are unused. Can I drop them mid-cycle? This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "Hello Ingrid, unused Lumen Desk Lite seats can be removed at any time; the credit of $90.00 applies to your next invoice automatically. Ticket LD-4478 lists the seats removed. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "case_id": "H006",
+      "origin": "fresh",
+      "prompt": "I am Diego, ticket LD-4485. My Lumen Desk Lite notification emails go to spam since Tuesday. This started two days ago, shortly after I switched my payment card.",
+      "response": "Hi Diego, our sending domain changed on Tuesday, which can trip strict spam filters. Allowlisting the new domain fixes it; ticket LD-4485 has the exact address to allow. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "case_id": "H007",
+      "origin": "fresh",
+      "prompt": "Hello, I am Sofia. Ticket LD-4492: I exported Lumen Desk Lite data but the file is empty. This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "Hello Sofia, an empty export usually means the date filter excluded every row. Clear the filter and export again; ticket LD-4492 stays open until the file downloads correctly. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "case_id": "H008",
+      "origin": "fresh",
+      "prompt": "I am Henrik, ticket LD-4499. Can Lumen Desk Mobile import contacts from a spreadsheet? This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Yes, Henrik \u2014 Lumen Desk Mobile imports spreadsheets with name and email columns, and it flags duplicate rows before saving. Ticket LD-4499 links the import guide. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    },
+    {
+      "case_id": "H009",
+      "origin": "near_duplicate_of:C003",
+      "prompt": "I am Kavya and I forgot my password for Lumen Desk Pro. Ticket LD-9001. How do I get back in? This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "No problem, Kavya. Open Lumen Desk Pro, choose Forgot password on the sign-in screen, and we will email a reset link that stays valid for one hour. After the reset, sign in again and re-enable two-factor authentication under Settings, Security. Ticket LD-9001 covers this request if the link expires. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "case_id": "H010",
+      "origin": "near_duplicate_of:C012",
+      "prompt": "Hello, I am Rohan. Ticket LD-9002: how much was my refund for Lumen Desk Mobile? This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hi Rohan, I can confirm your refund for Lumen Desk Mobile was $71.00 plus a goodwill credit, so the total return is double that amount. It was processed instantly and cannot be delayed by your bank. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    }
+  ],
+  "pool_id": "synthetic-heldout-seed42",
+  "seed": 42
+}
