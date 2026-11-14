@@ -1,0 +1,853 @@
+{
+  "cases": [
+    {
+      "adjudicator": null,
+      "case_id": "S001",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 2,
+        "R3": 3,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 1 for the chance set.",
+      "response": "Synthetic sanity response 1 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S002",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 4,
+        "R3": 3,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 2 for the chance set.",
+      "response": "Synthetic sanity response 2 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S003",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 1,
+        "R3": 5,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 3 for the chance set.",
+      "response": "Synthetic sanity response 3 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S004",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 5,
+        "R3": 4,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 4 for the chance set.",
+      "response": "Synthetic sanity response 4 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S005",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 5 for the chance set.",
+      "response": "Synthetic sanity response 5 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S006",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 2,
+        "R3": 2,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 6 for the chance set.",
+      "response": "Synthetic sanity response 6 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S007",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 2,
+        "R3": 4,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 7 for the chance set.",
+      "response": "Synthetic sanity response 7 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S008",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 1,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 8 for the chance set.",
+      "response": "Synthetic sanity response 8 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S009",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 9 for the chance set.",
+      "response": "Synthetic sanity response 9 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S010",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 1,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 10 for the chance set.",
+      "response": "Synthetic sanity response 10 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S011",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 5,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 11 for the chance set.",
+      "response": "Synthetic sanity response 11 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S012",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 4,
+        "R3": 3,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 12 for the chance set.",
+      "response": "Synthetic sanity response 12 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S013",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 3,
+        "R3": 4,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 13 for the chance set.",
+      "response": "Synthetic sanity response 13 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S014",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 2,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 14 for the chance set.",
+      "response": "Synthetic sanity response 14 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S015",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 5,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 15 for the chance set.",
+      "response": "Synthetic sanity response 15 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S016",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 1,
+        "R3": 4,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 16 for the chance set.",
+      "response": "Synthetic sanity response 16 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S017",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 5,
+        "R3": 4,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 17 for the chance set.",
+      "response": "Synthetic sanity response 17 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S018",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 3,
+        "R3": 1,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 18 for the chance set.",
+      "response": "Synthetic sanity response 18 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S019",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 2,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 19 for the chance set.",
+      "response": "Synthetic sanity response 19 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S020",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 1,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 20 for the chance set.",
+      "response": "Synthetic sanity response 20 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S021",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 4,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 21 for the chance set.",
+      "response": "Synthetic sanity response 21 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S022",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 22 for the chance set.",
+      "response": "Synthetic sanity response 22 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S023",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 5,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 23 for the chance set.",
+      "response": "Synthetic sanity response 23 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S024",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 1,
+        "R3": 2,
+        "R4": 2
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 24 for the chance set.",
+      "response": "Synthetic sanity response 24 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S025",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 4,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 25 for the chance set.",
+      "response": "Synthetic sanity response 25 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S026",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 4,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 26 for the chance set.",
+      "response": "Synthetic sanity response 26 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S027",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 2,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 27 for the chance set.",
+      "response": "Synthetic sanity response 27 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S028",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 4,
+        "R3": 3,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 28 for the chance set.",
+      "response": "Synthetic sanity response 28 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S029",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 3,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 29 for the chance set.",
+      "response": "Synthetic sanity response 29 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S030",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 5,
+        "R3": 3,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 30 for the chance set.",
+      "response": "Synthetic sanity response 30 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S031",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 1,
+        "R3": 2,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 31 for the chance set.",
+      "response": "Synthetic sanity response 31 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S032",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 1,
+        "R3": 3,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 32 for the chance set.",
+      "response": "Synthetic sanity response 32 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S033",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 4,
+        "R3": 5,
+        "R4": 4
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 33 for the chance set.",
+      "response": "Synthetic sanity response 33 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S034",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 5,
+        "R3": 2,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 34 for the chance set.",
+      "response": "Synthetic sanity response 34 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S035",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 4,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 35 for the chance set.",
+      "response": "Synthetic sanity response 35 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S036",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 1,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 36 for the chance set.",
+      "response": "Synthetic sanity response 36 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S037",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 2,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 37 for the chance set.",
+      "response": "Synthetic sanity response 37 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S038",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 2,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 38 for the chance set.",
+      "response": "Synthetic sanity response 38 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S039",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 4,
+        "R3": 4,
+        "R4": 5
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 39 for the chance set.",
+      "response": "Synthetic sanity response 39 (chance)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S040",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 3,
+        "R3": 4,
+        "R4": 1
+      },
+      "pattern": "chance",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 40 for the chance set.",
+      "response": "Synthetic sanity response 40 (chance)."
+    }
+  ],
+  "dataset_id": "synthetic-sanity-chance-seed42",
+  "description": "Synthetic chance-agreement sanity dataset.",
+  "raters": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "seed": 42
+}
