@@ -1,0 +1,932 @@
+{
+  "cases": [
+    {
+      "adjudicator": null,
+      "case_id": "C001",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": null,
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": null,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, I am Maya. My refund for Lumen Desk Pro was approved last week, ticket LD-4100. When will the money arrive? This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "Hello Maya, your refund of $18.00 for Lumen Desk Pro was approved and sent to your original payment method on Monday. Banks usually post it within 2 business days, so it should appear by Friday at the latest. Your ticket LD-4100 stays open until you confirm receipt. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 2,
+        "rationale": "Adjudicator checked the response against account facts: it states something untrue, so the fail stands regardless of tone or fluency."
+      },
+      "case_id": "C002",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, I am Jonas. Ticket LD-4107: how much was my refund for Lumen Desk Pro? This started two days ago, shortly after I switched my payment card.",
+      "response": "Hi Jonas, I can confirm your refund for Lumen Desk Pro was $31.00 plus a goodwill credit, so the total return is double that amount. It was processed instantly and cannot be delayed by your bank. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C003",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "I am Priya and I forgot my password for Lumen Desk Pro. Ticket LD-4114. How do I get back in? This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "No problem, Priya. Open Lumen Desk Pro, choose Forgot password on the sign-in screen, and we will email a reset link that stays valid for one hour. After the reset, sign in again and re-enable two-factor authentication under Settings, Security. Ticket LD-4114 covers this request if the link expires. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 2,
+        "rationale": "Adjudicator compared the response with the customer's actual problem: a required diagnostic step is missing, so the fail stands."
+      },
+      "case_id": "C004",
+      "failure_class": "incomplete",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 2,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "I am Tomas, ticket LD-4121. I cannot reset my password for Lumen Desk Teams; the email never arrives. This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hi Tomas, please use the Forgot password link on the sign-in page of Lumen Desk Teams. A reset email will be sent to your address. Let us know if anything else comes up. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C005",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, Elena here, ticket LD-4128. Why did my Lumen Desk Teams invoice go up this month? This started when my plan renewed, shortly after I returned from leave.",
+      "response": "Hello Elena, your Lumen Desk Teams invoice rose because the annual plan discount from last year ended in March, so this month bills at the standard rate of $70.00. Nothing else on the invoice changed, and ticket LD-4128 includes a line-by-line copy for your records. I have also noted that you need exports for a monthly audit and test new features before rolling them out."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C006",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, Marcus, ticket LD-4135. My Lumen Desk Teams order shipped late. Where is it now? This started during a work trip, shortly after I changed my contact email.",
+      "response": "Hello Marcus, sorry for the delay. Your Lumen Desk Teams parcel left our depot yesterday and the carrier expects delivery within 3 business days. The tracking page under ticket LD-4135 updates each evening, and we will message you if the date slips. I have also noted that you keep a paper trail for every change and escalate anything urgent by phone."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "pass",
+        "quality": 3,
+        "rationale": "Adjudicator ruled the content correct but the tone below the empathy bar for a frustrated customer; recorded as a pass on task completion with the quality score carrying the tone penalty."
+      },
+      "case_id": "C007",
+      "failure_class": "tone_mismatch",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "tone_split",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 3
+      },
+      "prompt": "I am Ingrid. Ticket LD-4142: my export from Lumen Desk Lite failed twice today and I am frustrated. This started just after the holidays, shortly after I added two teammates.",
+      "response": "Exports fail when the date range covers more than ninety days. Narrow the range and run it again. Ticket LD-4142 noted. I have also noted that you prefer updates by email rather than in the app and archive anything older than a year."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 2,
+        "rationale": "Adjudicator checked the response against account facts: it states something untrue, so the fail stands regardless of tone or fluency."
+      },
+      "case_id": "C008",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": null
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 2,
+        "R4": null
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, Diego here. Ticket LD-4149: when does my Lumen Desk Lite trial end? This started late last week, shortly after I merged two projects.",
+      "response": "Hi Diego, your Lumen Desk Lite trial never expires, so you can keep using every feature free of charge forever. There is no need to add a payment method at any point. I have also noted that you recently switched from a competitor and use keyboard shortcuts heavily."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C009",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, I am Sofia, ticket LD-4156. I moved house last month; please update the billing address for Lumen Desk Lite. This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "Hello Sofia, I have updated the billing address on your Lumen Desk Lite account, and the change applies from the next invoice onward. A confirmation email is on its way, and ticket LD-4156 records the old address as replaced rather than copied. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 3,
+        "rationale": "Adjudicator re-read the original request: one of the two explicit instructions was never done, so the fail stands even though the reply reads fluently."
+      },
+      "case_id": "C010",
+      "failure_class": "missed_instruction",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "leniency_split",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 3
+      },
+      "prompt": "I am Henrik, ticket LD-4163. Please cancel my Lumen Desk Mobile renewal AND export all my data before it closes. This started two days ago, shortly after I switched my payment card.",
+      "response": "Hello Henrik, your Lumen Desk Mobile renewal is cancelled and will not bill again. A confirmation email is on its way, and ticket LD-4163 is now closed. Thank you for using Lumen Desk Mobile. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C011",
+      "failure_class": "none",
+      "nominal": {
+        "R1": null,
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": null,
+        "R2": 5,
+        "R3": 5,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, I am Amara. My refund for Lumen Desk Mobile was approved last week, ticket LD-4170. When will the money arrive? This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "Hello Amara, your refund of $58.00 for Lumen Desk Mobile was approved and sent to your original payment method on Monday. Banks usually post it within 4 business days, so it should appear by Friday at the latest. Your ticket LD-4170 stays open until you confirm receipt. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C012",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, I am Felix. Ticket LD-4177: how much was my refund for Lumen Desk Mobile? This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hi Felix, I can confirm your refund for Lumen Desk Mobile was $71.00 plus a goodwill credit, so the total return is double that amount. It was processed instantly and cannot be delayed by your bank. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C013",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "I am Maya and I forgot my password for Lumen Desk Pro. Ticket LD-4184. How do I get back in? This started when my plan renewed, shortly after I returned from leave.",
+      "response": "No problem, Maya. Open Lumen Desk Pro, choose Forgot password on the sign-in screen, and we will email a reset link that stays valid for one hour. After the reset, sign in again and re-enable two-factor authentication under Settings, Security. Ticket LD-4184 covers this request if the link expires. I have also noted that you need exports for a monthly audit and test new features before rolling them out."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C014",
+      "failure_class": "incomplete",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "I am Jonas, ticket LD-4191. I cannot reset my password for Lumen Desk Pro; the email never arrives. This started during a work trip, shortly after I changed my contact email.",
+      "response": "Hi Jonas, please use the Forgot password link on the sign-in page of Lumen Desk Pro. A reset email will be sent to your address. Let us know if anything else comes up. I have also noted that you keep a paper trail for every change and escalate anything urgent by phone."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C015",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, Priya here, ticket LD-4198. Why did my Lumen Desk Pro invoice go up this month? This started just after the holidays, shortly after I added two teammates.",
+      "response": "Hello Priya, your Lumen Desk Pro invoice rose because the annual plan discount from last year ended in March, so this month bills at the standard rate of $20.00. Nothing else on the invoice changed, and ticket LD-4198 includes a line-by-line copy for your records. I have also noted that you prefer updates by email rather than in the app and archive anything older than a year."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C016",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, Tomas, ticket LD-4205. My Lumen Desk Teams order shipped late. Where is it now? This started late last week, shortly after I merged two projects.",
+      "response": "Hello Tomas, sorry for the delay. Your Lumen Desk Teams parcel left our depot yesterday and the carrier expects delivery within 5 business days. The tracking page under ticket LD-4205 updates each evening, and we will message you if the date slips. I have also noted that you recently switched from a competitor and use keyboard shortcuts heavily."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "pass",
+        "quality": 3,
+        "rationale": "Adjudicator ruled the content correct but the tone below the empathy bar for a frustrated customer; recorded as a pass on task completion with the quality score carrying the tone penalty."
+      },
+      "case_id": "C017",
+      "failure_class": "tone_mismatch",
+      "nominal": {
+        "R1": null,
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": null,
+        "R2": 3,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "tone_split",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 3
+      },
+      "prompt": "I am Elena. Ticket LD-4212: my export from Lumen Desk Teams failed twice today and I am frustrated. This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "Exports fail when the date range covers more than ninety days. Narrow the range and run it again. Ticket LD-4212 noted. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C018",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 3
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, Marcus here. Ticket LD-4219: when does my Lumen Desk Teams trial end? This started two days ago, shortly after I switched my payment card.",
+      "response": "Hi Marcus, your Lumen Desk Teams trial never expires, so you can keep using every feature free of charge forever. There is no need to add a payment method at any point. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C019",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": null
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": null
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, I am Ingrid, ticket LD-4226. I moved house last month; please update the billing address for Lumen Desk Lite. This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "Hello Ingrid, I have updated the billing address on your Lumen Desk Lite account, and the change applies from the next invoice onward. A confirmation email is on its way, and ticket LD-4226 records the old address as replaced rather than copied. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 3,
+        "rationale": "Adjudicator re-read the original request: one of the two explicit instructions was never done, so the fail stands even though the reply reads fluently."
+      },
+      "case_id": "C020",
+      "failure_class": "missed_instruction",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "leniency_split",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 3
+      },
+      "prompt": "I am Diego, ticket LD-4233. Please cancel my Lumen Desk Lite renewal AND export all my data before it closes. This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hello Diego, your Lumen Desk Lite renewal is cancelled and will not bill again. A confirmation email is on its way, and ticket LD-4233 is now closed. Thank you for using Lumen Desk Lite. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C021",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, I am Sofia. My refund for Lumen Desk Lite was approved last week, ticket LD-4240. When will the money arrive? This started when my plan renewed, shortly after I returned from leave.",
+      "response": "Hello Sofia, your refund of $98.00 for Lumen Desk Lite was approved and sent to your original payment method on Monday. Banks usually post it within 2 business days, so it should appear by Friday at the latest. Your ticket LD-4240 stays open until you confirm receipt. I have also noted that you need exports for a monthly audit and test new features before rolling them out."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C022",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, I am Henrik. Ticket LD-4247: how much was my refund for Lumen Desk Mobile? This started during a work trip, shortly after I changed my contact email.",
+      "response": "Hi Henrik, I can confirm your refund for Lumen Desk Mobile was $21.00 plus a goodwill credit, so the total return is double that amount. It was processed instantly and cannot be delayed by your bank. I have also noted that you keep a paper trail for every change and escalate anything urgent by phone."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C023",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": null,
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": null,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "I am Amara and I forgot my password for Lumen Desk Mobile. Ticket LD-4254. How do I get back in? This started just after the holidays, shortly after I added two teammates.",
+      "response": "No problem, Amara. Open Lumen Desk Mobile, choose Forgot password on the sign-in screen, and we will email a reset link that stays valid for one hour. After the reset, sign in again and re-enable two-factor authentication under Settings, Security. Ticket LD-4254 covers this request if the link expires. I have also noted that you prefer updates by email rather than in the app and archive anything older than a year."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C024",
+      "failure_class": "incomplete",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "I am Felix, ticket LD-4261. I cannot reset my password for Lumen Desk Mobile; the email never arrives. This started late last week, shortly after I merged two projects.",
+      "response": "Hi Felix, please use the Forgot password link on the sign-in page of Lumen Desk Mobile. A reset email will be sent to your address. Let us know if anything else comes up. I have also noted that you recently switched from a competitor and use keyboard shortcuts heavily."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C025",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, Maya here, ticket LD-4268. Why did my Lumen Desk Pro invoice go up this month? This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "Hello Maya, your Lumen Desk Pro invoice rose because the annual plan discount from last year ended in March, so this month bills at the standard rate of $60.00. Nothing else on the invoice changed, and ticket LD-4268 includes a line-by-line copy for your records. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "pass",
+        "quality": 4,
+        "rationale": "Adjudicator confirmed the response against the rubric: the labels that disagreed were scoring style, not substance; the response meets every rubric point."
+      },
+      "case_id": "C026",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "fail",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, Jonas, ticket LD-4275. My Lumen Desk Pro order shipped late. Where is it now? This started two days ago, shortly after I switched my payment card.",
+      "response": "Hello Jonas, sorry for the delay. Your Lumen Desk Pro parcel left our depot yesterday and the carrier expects delivery within 3 business days. The tracking page under ticket LD-4275 updates each evening, and we will message you if the date slips. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "pass",
+        "quality": 3,
+        "rationale": "Adjudicator ruled the content correct but the tone below the empathy bar for a frustrated customer; recorded as a pass on task completion with the quality score carrying the tone penalty."
+      },
+      "case_id": "C027",
+      "failure_class": "tone_mismatch",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 4,
+        "R4": 3
+      },
+      "pattern": "tone_split",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 3
+      },
+      "prompt": "I am Priya. Ticket LD-4282: my export from Lumen Desk Pro failed twice today and I am frustrated. This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "Exports fail when the date range covers more than ninety days. Narrow the range and run it again. Ticket LD-4282 noted. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 2,
+        "rationale": "Adjudicator checked the response against account facts: it states something untrue, so the fail stands regardless of tone or fluency."
+      },
+      "case_id": "C028",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 2,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, Tomas here. Ticket LD-4289: when does my Lumen Desk Teams trial end? This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hi Tomas, your Lumen Desk Teams trial never expires, so you can keep using every feature free of charge forever. There is no need to add a payment method at any point. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C029",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": null
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": null
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, I am Elena, ticket LD-4296. I moved house last month; please update the billing address for Lumen Desk Teams. This started when my plan renewed, shortly after I returned from leave.",
+      "response": "Hello Elena, I have updated the billing address on your Lumen Desk Teams account, and the change applies from the next invoice onward. A confirmation email is on its way, and ticket LD-4296 records the old address as replaced rather than copied. I have also noted that you need exports for a monthly audit and test new features before rolling them out."
+    },
+    {
+      "adjudicator": {
+        "adjudicator": "senior-reviewer-1",
+        "label": "fail",
+        "quality": 3,
+        "rationale": "Adjudicator re-read the original request: one of the two explicit instructions was never done, so the fail stands even though the reply reads fluently."
+      },
+      "case_id": "C030",
+      "failure_class": "missed_instruction",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "pass",
+        "R4": null
+      },
+      "ordinal": {
+        "R1": 3,
+        "R2": 3,
+        "R3": 4,
+        "R4": null
+      },
+      "pattern": "leniency_split",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 3
+      },
+      "prompt": "I am Marcus, ticket LD-4303. Please cancel my Lumen Desk Teams renewal AND export all my data before it closes. This started during a work trip, shortly after I changed my contact email.",
+      "response": "Hello Marcus, your Lumen Desk Teams renewal is cancelled and will not bill again. A confirmation email is on its way, and ticket LD-4303 is now closed. Thank you for using Lumen Desk Teams. I have also noted that you keep a paper trail for every change and escalate anything urgent by phone."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C031",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": null
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": null
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, I am Ingrid. My refund for Lumen Desk Lite was approved last week, ticket LD-4310. When will the money arrive? This started just after the holidays, shortly after I added two teammates.",
+      "response": "Hello Ingrid, your refund of $48.00 for Lumen Desk Lite was approved and sent to your original payment method on Monday. Banks usually post it within 4 business days, so it should appear by Friday at the latest. Your ticket LD-4310 stays open until you confirm receipt. I have also noted that you prefer updates by email rather than in the app and archive anything older than a year."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C032",
+      "failure_class": "factual_error",
+      "nominal": {
+        "R1": "fail",
+        "R2": null,
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": null,
+        "R3": 2,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "Hello, I am Diego. Ticket LD-4317: how much was my refund for Lumen Desk Lite? This started late last week, shortly after I merged two projects.",
+      "response": "Hi Diego, I can confirm your refund for Lumen Desk Lite was $61.00 plus a goodwill credit, so the total return is double that amount. It was processed instantly and cannot be delayed by your bank. I have also noted that you recently switched from a competitor and use keyboard shortcuts heavily."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C033",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "I am Sofia and I forgot my password for Lumen Desk Lite. Ticket LD-4324. How do I get back in? This started last Tuesday, shortly after I updated the mobile app.",
+      "response": "No problem, Sofia. Open Lumen Desk Lite, choose Forgot password on the sign-in screen, and we will email a reset link that stays valid for one hour. After the reset, sign in again and re-enable two-factor authentication under Settings, Security. Ticket LD-4324 covers this request if the link expires. I have also noted that you share this account with two colleagues and review invoices before paying them."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C034",
+      "failure_class": "incomplete",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 3,
+        "R4": 2
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "fail",
+        "quality": 2
+      },
+      "prompt": "I am Henrik, ticket LD-4331. I cannot reset my password for Lumen Desk Mobile; the email never arrives. This started two days ago, shortly after I switched my payment card.",
+      "response": "Hi Henrik, please use the Forgot password link on the sign-in page of Lumen Desk Mobile. A reset email will be sent to your address. Let us know if anything else comes up. I have also noted that you work across two time zones and keep two admins on the account."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C035",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 5
+      },
+      "prompt": "Hi, Amara here, ticket LD-4338. Why did my Lumen Desk Mobile invoice go up this month? This started on Monday morning, shortly after I enabled single sign-on.",
+      "response": "Hello Amara, your Lumen Desk Mobile invoice rose because the annual plan discount from last year ended in March, so this month bills at the standard rate of $100.00. Nothing else on the invoice changed, and ticket LD-4338 includes a line-by-line copy for your records. I have also noted that you are on the annual billing cycle and forward summaries to a shared inbox."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "C036",
+      "failure_class": "none",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 4,
+        "R2": 4,
+        "R3": 4,
+        "R4": 4
+      },
+      "pattern": "clear",
+      "planted_truth": {
+        "nominal": "pass",
+        "quality": 4
+      },
+      "prompt": "Hi, Felix, ticket LD-4345. My Lumen Desk Mobile order shipped late. Where is it now? This started right after the latest update, shortly after I moved to a new office.",
+      "response": "Hello Felix, sorry for the delay. Your Lumen Desk Mobile parcel left our depot yesterday and the carrier expects delivery within 5 business days. The tracking page under ticket LD-4345 updates each evening, and we will message you if the date slips. I have also noted that you mostly use the mobile app during the day and check the account every morning."
+    }
+  ],
+  "dataset_id": "synthetic-ratings-seed42",
+  "description": "Synthetic human ratings of fictional Lumen Desk support-agent responses (fictional data only).",
+  "raters": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "seed": 42
+}
