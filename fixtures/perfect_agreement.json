@@ -1,0 +1,265 @@
+{
+  "cases": [
+    {
+      "adjudicator": null,
+      "case_id": "S001",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 1 for the perfect set.",
+      "response": "Synthetic sanity response 1 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S002",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 2 for the perfect set.",
+      "response": "Synthetic sanity response 2 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S003",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 3 for the perfect set.",
+      "response": "Synthetic sanity response 3 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S004",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 4 for the perfect set.",
+      "response": "Synthetic sanity response 4 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S005",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 5 for the perfect set.",
+      "response": "Synthetic sanity response 5 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S006",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 6 for the perfect set.",
+      "response": "Synthetic sanity response 6 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S007",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 7 for the perfect set.",
+      "response": "Synthetic sanity response 7 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S008",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 8 for the perfect set.",
+      "response": "Synthetic sanity response 8 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S009",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 9 for the perfect set.",
+      "response": "Synthetic sanity response 9 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S010",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 10 for the perfect set.",
+      "response": "Synthetic sanity response 10 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S011",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "pass",
+        "R2": "pass",
+        "R3": "pass",
+        "R4": "pass"
+      },
+      "ordinal": {
+        "R1": 5,
+        "R2": 5,
+        "R3": 5,
+        "R4": 5
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 11 for the perfect set.",
+      "response": "Synthetic sanity response 11 (perfect)."
+    },
+    {
+      "adjudicator": null,
+      "case_id": "S012",
+      "failure_class": "sanity",
+      "nominal": {
+        "R1": "fail",
+        "R2": "fail",
+        "R3": "fail",
+        "R4": "fail"
+      },
+      "ordinal": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      },
+      "pattern": "perfect",
+      "planted_truth": null,
+      "prompt": "Sanity probe item 12 for the perfect set.",
+      "response": "Synthetic sanity response 12 (perfect)."
+    }
+  ],
+  "dataset_id": "synthetic-sanity-perfect-seed42",
+  "description": "Synthetic perfect-agreement sanity dataset.",
+  "raters": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "seed": 42
+}
